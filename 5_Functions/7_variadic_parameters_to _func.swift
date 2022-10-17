@@ -11,4 +11,4 @@ func sumOfNumbers(numbers numberSeries: Int..., title: String)-> Int
 }
 
 let k = sumOfNumbers(numbers: 1,3,5,9,7, title: "odd numbers")
-print(ks
+print(k)
