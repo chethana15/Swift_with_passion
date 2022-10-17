@@ -12,3 +12,21 @@ for (index, value) in array.enumerated(){
 }
 print(totalNumber)
 print(array)
+
+//Mark: - print average of studentsMarks
+var studentMarks = [20, 11, 8, 22, 19, 17, 24]
+var totalMarks = Int()
+for eachStudentMarks in studentMarks{
+   totalMarks = totalMarks + eachStudentMarks
+}
+print(totalMarks/studentMarks.count)
+
+//Mark: - print minimum and maximum marks of studentMarks
+
+//print array elements in reverse order
+for element in stride(from:0, to: studentMarks.count, by: 1){
+print("\(studentMarks[element])", terminator: " ")
+}
+print()
+studentMarks.reverse()
+print(studentMarks)
