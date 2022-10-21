@@ -4,3 +4,4 @@ for a in marks{
 sum = sum + a
 }
 print("Average of marks: \(sum/marks.count)")
+print(marks.min())
