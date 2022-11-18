@@ -23,5 +23,5 @@ func sumOfDigits(number: Int)->Int{
       return (count*r) + sumOfDigits(number: n)
     }
     
-    let a = sumOfDigits(number: 513)
-    print(a)
+    let a = sumOfDigits(number: 562)
+    print("Final sum:\(a)")
