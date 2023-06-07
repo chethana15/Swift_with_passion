@@ -25,5 +25,5 @@ func fibSeries(number: Int)->Int{
     print(result)
     return result
 }
- fibSeries(number: 5)
+ fibSeries(number: 50)
  print(fibDict)
